@@ -1,0 +1,34 @@
+inicial = float(input("Digite o valor inicial da ação na bolsa: "))
+final = float(input("Digite o valor final da ação na bolsa: "))
+negativeOrPositive = (final - inicial) 
+
+                                   
+if (negativeOrPositive + inicial) == final and  (final - negativeOrPositive) == inicial:
+    print("Verifiquei uma alta no valor desta bolsa, a ação foi vendida, obtendo um lucro de", negativeOrPositive, " reais!") 
+else:    
+    print("Foi verificada uma baixa nesta bolsa de ",negativeOrPositive, ", ela acaba de ser vendida para evitar prejuizo!")
+
+
+
+7 
+8
+
+
+
+
+
+
+
+
+
+inicial = float(input("Digite o valor inicial da ação na bolsa: "))
+final = float(input("Digite o valor final da ação na bolsa: "))
+negativeOrPositive = (final - inicial)
+positiveOrNegative = (inicial - final) 
+
+
+if (negativeOrPositive + inicial) == final:
+    print("Verifiquei uma alta no valor desta bolsa, a ação foi vendida, obtendo um lucro de", negativeOrPositive, " reais!")
+if (positiveOrNegative + inicial) == final:
+    print("Foi verificada uma baixa nesta bolsa de ",negativeOrPositive, ", ela acaba de ser vendida para evitar prejuizo!")
+
